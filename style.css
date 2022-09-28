@@ -1,0 +1,52 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --black-color:#000;
+    --white-color:#fff;
+    --primary-color:#c1510b;
+}
+
+.form-group{
+margin-top: 10px;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input{
+    margin-top: 5px;
+    padding:5px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border:0.57px var(--primary-color) solid;
+  
+}
+
+
+.form-group button{
+    padding:5px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    color: var(--white-color)
+}
+
+
+.form{
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    border:1px dashed var(--black-color)
+}
+
+
+
+.bg-violet{
+    background-color:var(--primary-color)
+}
